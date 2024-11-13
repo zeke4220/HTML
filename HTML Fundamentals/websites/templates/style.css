@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+	font-family: 'Nunito', sans-serif;
+	color: black;
+	margin: 0;
+}
+h1{
+	text-align: center;
+	font-size; 4em;
+}
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+}
+footer{
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+}
+
+/* Veritcal Navigation bar */
+
+a:link{
+color: purple;
+}
+a:visited{
+color: purple;
+}
+a:hover{
+color: blue;
+}
+a:active{
+color: black;
+}
+
+nav{
+	background-color: purple;
+	border-top: 2px darkblue solid;
+	border-bottom: 2px darkblue solid;
+	padding: 5px;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: black;
+}
+nav a:visited{
+	color: red;
+}
+nav a:hover{
+	color: gray;
+}
+nav a:active{
+	color: white;
+}
+
+.fa {
+	font-size: 4em;
+	color: purple;
+}
+
+
+/* CSS for Tablets */
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+/* CSS for Smartphone */
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}

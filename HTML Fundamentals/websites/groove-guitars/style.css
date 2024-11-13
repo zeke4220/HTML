@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+	font-family: 'Nunito', sans-serif;
+	color: black;
+	margin: 0;
+	background-color: #CAA6ED;
+}
+.logo{
+	max-width: 275px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	paddings: 20px;
+}
+
+h1{
+	text-align: center;
+}
+#home-hero{
+	background-image: url(images/guitars.jpg);
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#home-hero h1{
+	text-align: center;
+	color: #FF00FE;
+	text-shadow: 2px 2px 2px black;
+	margin: 0;
+	padding: 10px;
+	background-color: rgba(0,0,0,.5);
+}
+h2{
+	background: linear-gradient(213deg, rgba(63,94,251,1) 0%, 
+				rgba(186,92,191,1) 26%, rgba(151,145,224,1) 61%, 
+				rgba(255,255,255,1) 100%);
+	border-top: 2px darkblue solid;
+	border-bottom: 2px darkblue solid;
+	text-align: center;
+	clear: both;
+	color: purple;
+}
+
+/* for the picture and main text in index */
+.container{
+	display: block;
+	align-items: center;
+	justify-content: center;
+}
+.side-image{
+	float: right; 
+	margin: 0 0 10px 10px; 
+	width: 50%; 
+	height: auto;
+}
+.text{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20%;
+    float: left;	
+}
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+	padding: 20px auto;
+}
+footer{
+	text-align: center;
+	background: linear-gradient(213deg, rgba(63,94,251,1) 0%, 
+				rgba(186,92,191,1) 26%, rgba(151,145,224,1) 61%, 
+				rgba(255,255,255,1) 100%);
+	border-top: 1px solid gray;
+	padding: 10px;
+}
+
+/* Nava colors */
+a:link{
+	color: purple;
+}
+a:visited{
+	color: purple;
+}
+a:hover{
+	color: blue;
+}
+a:active{
+	color: black;
+}
+
+/* Nav layout*/
+nav{
+	background: linear-gradient(213deg, rgba(63,94,251,1) 0%, 
+				rgba(186,92,191,1) 26%, rgba(151,145,224,1) 61%, 
+				rgba(255,255,255,1) 100%);
+	border-top: 2px darkblue solid;
+	border-bottom: 2px darkblue solid;
+	padding: 5px;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: black;
+}
+nav a:visited{
+	color: red;
+}
+nav a:hover{
+	color: blue;
+}
+nav a:active{
+	color: white;
+}
+
+/* Table */
+table{
+	border-collapse: collapse;
+	margin: 0 auto;
+	border: 5px solid #4e0be5;
+}
+tr:nth-child(even){
+	background-color: #ab8bf5;
+}
+th{
+	background-color: #69b4ff;
+	color: white;
+	padding: 10px;
+	border-bottom: 5px solid #000000;
+}
+td{
+	border: 1px solid #dddddd;
+	padding: 10px;
+}
+
+/* Form */
+label{
+	float: left;
+	width: 8em;
+	margin-top: 5px;
+	padding-right: 1em;
+	margin-left: 5px;
+}
+input{
+	border-radius: 5px;
+	background-color: #b69eef;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 1em;
+	margin-right: 5px;
+}
+textarea{
+	display: block;
+	background-color: #b69eef;
+	margin: 0 auto;
+	width: 80%; 
+	height: 150px;
+	resize: vertical; 
+	padding: 10px; 
+
+}
+input[type=submit]{
+	display: block;
+	margin: 20px auto;
+	background-color: violet;
+}
+.form{
+	display: flex;
+	padding: 10px;
+}
+form{
+	display: inline-block;
+	text-align: left;
+	border-collapse: collapse;
+	margin: 0 auto;
+	border: 5px solid #000000;
+}
+
+/* Youtube video embedded class */
+.video-container{
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+.video-container::after{
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* SoundCloud audio embedded class */
+.sound-container{
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+.sound-container::after{
+	padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+.sound-container iframe{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* CSS for Tablets */
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+/* CSS for Smartphone */
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}

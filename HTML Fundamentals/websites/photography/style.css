@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body{
+	font-family: "Rubik", sans-serif;
+	color: black;
+	margin: 0;
+	background-color: #8F8D96;
+}
+h1{
+	font-family: "Noto Sans", sans-serif;
+	text-align: center;
+	font-size; 4em;
+}
+h6 {
+	font-family: "Noto Sans", sans-serif;
+	text-alignment: left;
+}
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+}
+
+main .col-sm-2 {
+	text-align: right;
+}
+.fa.fa-camera {
+	color: #E8E8EA;
+	font-size: 7em;
+}
+
+blockquote{
+	text-align: center;
+    background-color: #afafaf;
+    border-left: 10px solid #464646 ;
+	border-right: 10px solid #464646 ;
+	border-top: 10px solid #464646 ;
+	border-bottom: 10px solid #464646 ;
+    padding: 30px;
+	border-radius: 20px;
+}
+
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+footer{
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+}
+
+footer .col-sm-12 {
+	background-color: #585858; 
+}
+.col-sm-2 small {
+    color: #ff0000; /* Change #ff0000 to whatever color you prefer */
+}
+
+footer i.fa{
+	color: #E8E8EA;
+	display: block;
+	font-size: 3em;
+}
+/* Veritcal Navigation bar */
+
+a:link{
+color: black;
+}
+a:visited{
+color: white;
+}
+a:hover{
+color: blue;
+}
+a:active{
+color: black;
+}
+
+nav{
+	background-color: #585858;
+	border-top: 2px darkblue solid;
+	border-bottom: 2px darkblue solid;
+	padding: 5px;
+}
+
+	
+nav i.fa {
+	color: #cccccc;
+	font-size: 2em;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: black;
+}
+nav a:visited{
+	color: white;
+}
+nav a:hover{
+	color: blue;
+}
+nav a:active{
+	color: 	black;
+}
+
+.fa {
+	font-size: 4em;
+	color: purple;
+}
+
+
+/* CSS for Tablets */
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+/* CSS for Smartphone */
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
